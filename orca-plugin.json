@@ -1,7 +1,7 @@
 {
   "manifestVersion": 2,
   "id": "night-owl-theme",
-  "publisher": "your-github-name",
+  "publisher": "akkr-personal-projects",
   "name": "Night Owl for Orca (Unofficial)",
   "version": "1.0.0",
   "execution": "data",
@@ -27,6 +27,6 @@
     ]
   },
   "capabilities": [],
-  "repository": "https://github.com/your-github-name/orca-night-owl-theme",
+  "repository": "https://github.com/akkr-personal-projects/orca-night-owl-theme",
   "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json"
 }
