@@ -1,0 +1,32 @@
+{
+  "manifestVersion": 2,
+  "id": "night-owl-theme",
+  "publisher": "your-github-name",
+  "name": "Night Owl for Orca (Unofficial)",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Unofficial Night Owl-inspired app, editor syntax and terminal theme for Orca.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "night-owl",
+        "title": "Night Owl",
+        "path": "themes/night-owl.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "night-owl",
+        "title": "Night Owl",
+        "path": "terminal/night-owl.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "repository": "https://github.com/your-github-name/orca-night-owl-theme",
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json"
+}
